@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="css/main.css" />
+
+
+<title>Login</title>
+<style>
+.jdbc {
+    width: 213px;
+    height: 46px;
+    margin: 30px auto;
+}
+.legend {
+    width: 320px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 30px;
+    border-top: 6px solid #ff656c;
+	border-bottom: 6px solid #ff656c;
+    margin: 0 auto;
+}
+
+.legend h1 {
+    text-align: center;
+    color: #ff656c;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.legend input {
+    width: 100%;
+    height: 42px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-family: Montserrat;
+    padding: 0 20px 0 50px;
+    outline: none;
+}
+
+.legend input#username {
+   
+    background-size: 16px 80px;
+}
+
+.legend input#username:focus {
+    
+    background-size: 16px 80px;
+}
+
+.legend input#password {
+   
+    background-size: 16px 80px;
+}
+
+.legend input#password:focus {
+    
+    background-size: 16px 80px;
+}
+
+.legend input:active, .legend input:focus {
+    border: 1px solid #ff656c;
+}
+
+.legend button {
+    width: 100%;
+    height: 40px;
+    background: #ff656c;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #e15960;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: Montserrat;
+    outline: none;
+    cursor: pointer;
+}
+
+.legend button:hover {
+    background: #ff7b81;
+}
+
+</style>
+</head>
+
+<body>
+<header id="header">
+				<a href="homepage.html" class="logo"><img src="images/menubar.png"></a>
+				<a href="homepage.html" class="name">Study Tools</a>
+				
+				
+		</header>
+
+<div class="jdbc"></div>
+<div class="legend">
+    <h1 >Login</h1>
+    <input type="text" value="" placeholder="PID" id="pid" />
+    <input type="password" value="" placeholder="Password" id="password" />
+    <button>Submit</button>
+</div>
+</body>
+
+</html>
